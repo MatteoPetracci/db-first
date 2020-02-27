@@ -1,0 +1,13 @@
+DATABASE AUTO USATE
+
+Id - primary_key - AI - unique
+Prezzo - float - DOUBLE (8,2) - DEFAULT 
+Anno di immatricolazione - data - YEAR - NOTNULL
+Colore - stringa - VARCHAR(20) - NULL
+Marca - stringa - VARCHAR(20) - NOTNULL
+Cambio - stringa - VARCHAR(15) - NOTNULL
+Alimentazione - stringa - VARCHAR(10) NOTNULL
+Posti - intero - TINYINT - NULL
+Km percorsi - float - DOUBLE (8,2)
+Km con un litro - intero - TINYINT 
+Descrizione - stringa - TEXT - NOTNULL 
